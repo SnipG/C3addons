@@ -1,0 +1,759 @@
+﻿
+.eventSheetView {
+	
+	--event-sheet-background-color:		#343434;
+	
+}
+
+canvas.layoutView {
+
+	--layoutview-border-color:			rgba(51,51,51, 0.8);
+	--layoutview-margin-color:			rgba(53,49,53, 0.8);
+	--layoutview-margin-edges-color:		rgba(113,110,113, 0.9);
+	
+	--layoutview-select-box-fill-color:   rgba(113,110,113,0.8);
+	--layoutview-select-box-outline-color: rgba(113,110,113,0.8);
+	--layoutview-container-box-fill-color: rgba(113,110,113,0.8);
+	--layoutview-container-box-outline-color: rgba(113,110,113,0.8);
+	--layoutview-wrap-fill-color rgba:	(113,110,113,0.8);
+	--layoutview-wrap-outline-color rgba:(113,110,113,0.8);
+	--layoutview-resize-handle-fill-color: rgba(113,110,113,0.8);
+	--layoutview-resize-handle-outline-color: rgba(113,110,113,0.8);
+	
+}
+
+.sh-number-literal {
+ color:#eaeaea
+}
+
+body {
+ --window-border-size:0px;
+}
+
+body,
+button,
+html,
+input,
+select,
+select option {
+ background: #333333;
+  
+}
+
+body,
+button,
+html,
+input,
+select {
+ color: grey;
+ background: #333333;
+
+  
+}
+
+body {
+ --default-icon-color:#cccccc; 
+ --project-item-icon-color:green;
+ --effect-icon-color:grey;
+ --default-layer-color:#333333;
+ --c3logo-type:dark;
+  
+}
+
+[row1] {
+   color: grey;
+  background: #333333;
+  
+}
+
+[row2] {
+  background: #333333;
+}
+[row3] {
+  background: #333333;
+}
+[row4] {
+  background: #333333;
+}
+[row5] {
+  background: #333333;
+}
+[row6] {
+  background: #333333;
+}
+[row7] {
+  background: #333333;
+}
+[row8] {
+  background: #333333;
+}
+[row9] {
+  background: #333333;
+}
+[row10] {
+  background: #333333;
+}
+[row11] {
+  background: #333333;
+}
+[row12] {
+  background: #333333;
+}
+[row13] {
+  background: #333333;
+}
+[row14] {
+  background: #333333;
+}
+[row15] {
+  background: #333333;
+}
+[row16] {
+  background: #333333;
+}
+[row17] {
+  background: #333333;
+}
+[row18] {
+  background: #333333;
+}
+[row19] {
+  background: #333333;
+}
+[row20] {
+  background: #333333;
+}
+[col1] {
+  background: #333333;
+}
+[col2] {
+  background: #333333;
+}
+[col3] {
+  background: #333333;
+}
+[col4] {
+  background: #333333;
+}
+[col5] {
+  background: #333333;
+}
+[col6] {
+  background: #333333;
+}
+[col7] {
+  background: #333333;
+}
+[col8] {
+  background: #333333;
+}
+[col9] {
+  background: #333333;
+}
+[col10] {
+  background: #333333;
+}
+[col11] {
+  background: #333333;
+}
+[col12] {
+  background: #333333;
+}
+[col13] {
+  background: #333333;
+}
+[col14] {
+  background: #333333;
+}
+[col15] {
+  background: #333333;
+}
+[col16] {
+  background: #333333;
+}
+[col17] {
+  background: #333333;
+}
+[col18] {
+  background: #333333;
+}
+[col19] {
+  background: #333333;
+}
+[col20] {
+  background: #333333;
+}
+
+
+a:not([href]) {
+ color:grey;
+}
+
+
+a:not([href]):active {
+ color:#333333
+}
+
+ui-caption,
+ui-dialog-caption {
+  background: #333333;
+}
+
+dialog[active]>ui-dialog-caption,
+dialog[always-active]>ui-dialog-caption,
+ui-pane[active]>ui-caption {
+ background: #333333;
+}
+
+dialog {
+border:var(--window-thin-border-size) solid #ccc;
+ background: #333333;
+ color: grey;
+  
+}
+
+html[desktop] dialog[resizable]:not([inPopupWindow]) {
+ border:var(--window-border-size) solid #ccc;
+}
+
+ui-dialog-caption {
+ color:grey;
+}
+
+
+.c3-dimmer {
+ background-color:rgba(0,0,0,.25);
+}
+
+[dockleft] {
+ border-right:var(--window-border-size) solid grey
+}
+[dockright] {
+ border-left:var(--window-border-size) solid grey
+}
+[docktop] {
+ border-bottom:var(--window-border-size) solid grey
+}
+[dockbottom] {
+ border-top:var(--window-border-size) solid grey
+}
+
+ui-caption {
+ color:grey;
+  background: #333333;
+}
+
+ui-body {
+ background: #333333;
+}
+
+.dockIndicator {
+ background-color:grey;
+ border:2px solid rgba(63,100,127,.8);
+}
+
+ui-propname {
+ background: #333333;
+ border:1px solid #333333;
+   color:grey;
+}
+
+div.propname-wrap {
+ background: #333333;
+}
+
+ui-propname[selected] div.propname-wrap {
+ background-color:grey;
+ color:#ccc
+}
+
+ui-propvalue {
+ background: #333333;
+ border:1px solid #333333;
+}
+
+ui-propvalue>input[type=email],
+ui-propvalue>input[type=number],
+ui-propvalue>input[type=password],
+ui-propvalue>input[type=tel],
+ui-propvalue>input[type=text],
+ui-propvalue>input[type=url] {
+ background: #333333;
+}
+
+input[type=text].longTextProperty {
+ background: #333333;
+}
+
+ui-propvalue>input[type=checkbox] {
+  background: #333333;
+}
+
+ui-propvalue>select {
+ background: #333333;
+}
+
+span.infoProperty {
+ color:grey; 
+}
+
+ui-propvalue>a {
+  color:grey;
+}
+
+td[propgroup] {
+padding-left:calc(2px + .3em);
+ background: #333333;
+}
+
+td[propgroup][selected] {
+background: #5b5b5b;
+}
+
+div.propgroup-wrap {
+ background:#333333; 
+}
+
+ui-propertygrid-footer {
+ background: #333333;
+ border-top:1px solid #bbb;
+}
+
+ui-propertygrid-footer[useBorderTop] {
+ border-top:1px solid grey
+}
+ui-propertygrid-footer[useBorderLeft] {
+ border-left:1px solid grey
+}
+ui-propertygrid-footer[useBorderRight] {
+ border-right:1px solid grey
+}
+ui-propertygrid-footer[useBorderBottom] {
+ border-bottom:1px solid grey
+}
+
+ui-tab {
+ border:1px solid #555;
+ background: #bbb;
+ color:black;
+ box-shadow:inset 20px 10px 1px 20px rgba(0,0,0,.45);
+ color:#eaeaea;
+}
+
+ui-tab[active] {
+ color:grey;
+ background-color:#fff;
+ box-shadow:inset 0 1px 30px 50 black;
+}
+
+.tree-item-wrap {
+ background: #333333;
+}
+
+.tree-item-wrap[changed] {
+  background: #333333;
+}
+
+ui-treeitem.searchMatch .tree-item-wrap {
+ background-color:#333333
+}
+
+ui-tree[fullrowselect] ui-treeitem:hover,
+ui-tree[itemselect] div.tree-item-wrap:hover {
+ outline:1px solid grey;
+ background-color:grey
+}
+ui-tree[fullrowselect] ui-treeitem[selected],
+ui-tree[itemselect] div.tree-item-wrap[selected] {
+ outline:1px solid grey;
+ background-color:grey
+}
+ui-tree[fullrowselect]:focus ui-treeitem:hover,
+ui-tree[itemselect]:focus div.tree-item-wrap:hover {
+ outline:1px solid grey;
+ background-color:grey
+}
+ui-tree[fullrowselect]:focus ui-treeitem[selected],
+ui-tree[itemselect]:focus div.tree-item-wrap[selected] {
+ outline:1px solid grey;
+ background-color:grey
+}
+
+span.tree-item-name {
+  background: #333333;
+}
+
+ui-iconview {
+ background-color:#333333;
+ color:grey;
+}
+
+dialog ui-iconview {
+ border:1px solid grey
+}
+
+
+ui-iconviewitem:hover {
+ outline:1px solid black;
+ background-color:#c1c1c1
+}
+
+ui-iconviewitem[selected] {
+ outline:1px solid black;
+ background-color:#c1c1c1
+}
+
+ui-iconview:focus ui-iconviewitem:hover {
+ outline:1px solid black;
+ background-color:#c1c1c1
+}
+
+ui-iconview:focus ui-iconviewitem[selected] {
+ outline:1px solid black;
+ background-color:#eaeaea
+}
+
+
+ui-toolbar {
+  background: #333333;
+}
+
+ui-toolbar[horizontal] {
+color:grey; 
+}
+
+ui-toolbar-separator {
+ background:grey;
+}
+
+ui-toolbar-button {
+  background:grey;
+}
+
+ui-toolbar-button[mouse-over] {
+ border:1px solid white!Important;
+ background:grey!Important;
+}
+ui-toolbar-button[mouse-down] {
+ border:1px solid white!Important;
+ background:grey!Important
+}
+
+ui-toolbar-split-button[type=split]>[primary] {
+  background: grey;
+}
+
+ui-toolbar-split-button[mouse-over]>[primary][mouse-over] {
+ border:1px solid black;
+ background:grey!important
+}
+ui-toolbar-split-button[mouse-over]>[primary][mouse-over-light] {
+ border:1px solid black
+}
+ui-toolbar-split-button[mouse-down]>[primary][mouse-down] {
+ border:1px solid black;
+ border-radius:3px 0 0 3px;
+ background:grey!important
+}
+
+ui-toolbar-split-button>[secondary] {
+ border:1px solid transparent;
+ background:grey;
+}
+
+ui-toolbar-split-button[mouse-over]>[secondary][mouse-over] {
+ border:1px solid black;
+ background:grey!important
+}
+
+ui-toolbar-split-button[mouse-over]>[secondary][mouse-over-light] {
+ border:1px solid grey
+}
+
+ui-toolbar-split-button[mouse-down]>[secondary][mouse-down] {
+ border:1px solid #333333;
+ background:#333333!important
+}
+
+ui-table-row[topRow] {
+ background:#282828;
+}
+
+.table-scroll-container {
+}
+
+ui-table-column+ui-table-column {
+ border-left:1px solid grey
+}
+
+ui-table-column[icon] {
+}
+
+ui-table-row[selected]>ui-table-column+ui-table-column {
+ border-left:1px solid black
+}
+
+
+.table-column-content {
+}
+
+.tableFooterContent {
+ background-color:#282828;
+ box-shadow:0 0 .1em .6em #282828
+}
+
+ui-close-button {
+}
+
+ui-close-button svg {
+ fill:#fff
+}
+
+ui-close-button:hover {
+ background-color:grey
+}
+
+ui-menu {
+ border:1px solid black;
+ background-color:#333333;
+}
+
+ui-menuitem {
+ background: #333333;
+}
+
+span.menu-item-text {
+ color:grey;
+}
+
+html[desktop] ui-menuitem:hover,
+ui-menuitem[selected] {
+ color:#fff;
+ background-color:#eaeaea
+}
+
+html[desktop] ui-menuitem:hover svg,
+ui-menuitem[selected] svg {
+ fill:#eaeaea
+}
+
+html[desktop] ui-menuitem svg,
+ui-menuitem[selected] svg {
+ fill:black
+}
+
+html[desktop] ui-menuitem:hover svg,
+ui-menuitem[selected] svg {
+ fill:black
+}
+
+#layersBar .layersBarIndexLabel {
+ color:grey
+}
+
+
+#tilemapBarCanvasStatus {
+ background-color:#333333;
+ border-top:1px solid grey;
+  color:grey;
+}
+
+/**/
+div.layoutViewStatus {
+ background-color:rgba(235,235,235,.85);
+ border-left:1px solid #999;
+ border-top:1px solid #999;
+  background: #333333;
+}
+
+ui-animation-editor-panel[hasFocus] ui-animation-editor-panel-title {
+ background:#333333;
+}
+ui-animation-editor-panel-content {
+ background:#333333;
+}
+ui-animation-editor-panel-title {
+ color:#fff;
+ background:#333333;
+}
+ui-animation-editor-panel {
+  background:#333333;
+}
+ui-palette-top {
+  background: #333333;
+}
+ui-palette {
+  background: #333333
+    
+}
+ui-palette-color-slider>input[type=range]::-moz-range-thumb {
+ background:0 0;
+ border-left:8px solid transparent;
+ border-right:8px solid transparent;
+ border-bottom:8px solid grey;
+  
+}
+ui-palette-color-slider>input[type=range]::-ms-thumb {
+ background:0 0;
+ border-left:8px solid transparent;
+ border-right:8px solid transparent;
+ border-bottom:8px solid grey
+}
+ui-palette-color-slider.colorSliderTrack {
+ border:1px solid grey
+}
+ui-palette-color-picks {
+ background:#333333;
+}
+
+ui-palette-color-picks-swatch-wrapper {
+ border:2px solid grey;
+}
+ui-palette-color-picks-swatch-wrapper:before {
+ background-color:grey;
+ background-image:linear-gradient(45deg,#282828 25%,transparent 25%,transparent 75%,#282828 75%,#282828),linear-gradient(45deg,#282828 25%,transparent 25%,transparent 75%,#282828 75%,#282828);
+ }
+
+ui-palette-color-swatches {
+ background-color:grey;
+ background-image:linear-gradient(45deg,#282828 25%,transparent 25%,transparent 75%,#282828 75%,#282828),linear-gradient(45deg,#282828 25%,transparent 25%,transparent 75%,#282828 75%,#282828);
+ border:1px solid #333333;
+}
+
+.animationsEditorMain ui-toolbar-layout-remaining-space {
+ background-color:#adadad;
+ background-image:linear-gradient(45deg,#848484 25%,transparent 25%,transparent 75%,#848484 75%,#848484),linear-gradient(45deg,#848484 25%,transparent 25%,transparent 75%,#848484 75%,#848484);
+}
+
+/*3457*/
+ui-palette-color-spinners {
+  color:grey;
+}
+ui-palette-color-spaces>a {
+ color:grey;
+}
+ui-palette-color-swatches-wrapper .swatch {
+ border-color:#333333;
+ border-style:solid;
+}
+.animationsEditorMain ui-toolbar-layout-remaining-space>canvas {
+ border:0 solid transparent;
+}
+.animationsEditorMain .polygonContainer polygon {
+ fill:grey;
+ fill-opacity:.7;
+ stroke:red;
+}
+.remainingEventsBlockInner {
+ border:1px solid #777;
+ background-color:#333333;
+  color:grey;
+}
+event-variable {
+ color:grey;
+ border:1px solid #b1d0a6;
+ background-color:#dbf2c3;
+}
+event-include[selected] {
+ background-color:grey;
+ border-color:#ffc61f;
+ color:grey
+}
+event-group {
+ background-color:grey;
+ border:1px solid #b6cde6;
+ color:#eaeaea;
+ outline:2px solid var(--event-sheet-background-color)
+}
+.addEventLink:hover,
+.addOtherLink:hover {
+ color:grey
+}
+.addOtherLink {
+  color:grey;
+}
+.addEventLink {
+  color:grey;
+}
+
+span.iconview-groupname {
+ color:grey;
+}
+
+#layersBar .layersBarIndexLabel {
+ color:#eaeaea
+}
+
+
+.inputGrid table{
+  border: #333333;
+  border:1px solid #333333
+}
+
+#npOrientationSelect{
+  border:1px solid #333333
+}
+#npPresetSelect{
+  border:1px solid #333333
+}
+#npProjectNameInput{
+  border:1px solid #333333
+}
+
+#npViewportHeightInput{
+  border:1px solid #333333
+}
+
+#npViewportWidthInput{
+  border:1px solid #333333
+}
+
+/*Animation-editor separator lines*/
+ui-animation-editor-gutter[horizontal] {
+ background:#282828
+}
+ui-animation-editor-gutter[vertical] {
+
+ background:#282828
+}
+
+/*Resize dialog colors*/
+#resizeImageDialog ui-dialog-contents {
+ background: #333333
+}
+
+#resizeImageDialog ui-dialog-footer {
+ background:#333333
+}
+#resizeImageDialog .settings {
+  border:1px solid #333333;
+  background: #333333;
+}
+
+#resizeImageDialog .settings .header {
+ background:#333333;
+}
+
+#startPageWrap .headerButtons .button:hover {
+ background-color:grey;
+ color:#eaeaea;
+}
+#startPageWrap .headerButtons .button {
+ background-color:#282828;
+ color:grey;
+
+}
+#startPageWrap .projectMainWrap {
+   background: #333333;
+  color:#eaeaea;
+}
+#startPageWrap .projectItem:hover {
+ background-color:#282828;
+ color:#eaeaea;
+}
+#startPageWrap .linkBox,
+#startPageWrap .motdBox {
+ background-color:#282828;
+ color:grey;
+
+}
